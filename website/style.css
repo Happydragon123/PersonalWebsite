@@ -1,0 +1,199 @@
+html,body
+{
+    background: url("../images/blahblah.jpg") repeat-y;
+    min-width: 100%;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.topnav {
+    background-color: #273746;
+    overflow: hidden;
+    }
+    
+    
+    /* Style the links inside the navigation bar */
+    .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    font-size: 30px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    
+    }
+    
+    
+    /* Change the color of links on hover */
+    .topnav a:hover {
+    background-color: lightslategrey;
+    color: lightblue;
+    }
+    
+    
+    /* Add a color to the active/current link */
+    .topnav a.active {
+    color: white;
+    }
+.hero-area{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 40px;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-text{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 40px;
+    box-sizing: border-box;
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+.button{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    box-sizing: border-box;
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+.socials{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-bottom: 200px;
+}
+.sub-section{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.information{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.sub-section-alternative{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+.project-container{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-card{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    width: 600px;
+    height: 700px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+}
+.project-image{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 25px;
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+}
+.subtext{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+.timebg{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-color: #1c1d25;
+}
+.ex{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.timeline{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #1c1d25;
+}
+.left{
+    left: 0;
+    text-align: left;
+}
+.container{
+    padding: 10px 30px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+.right {
+    left: 50%;
+    text-align: right;
+}
+.content{
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+.container2{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    padding: 10px;
+}
+footer{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 80px;
+}
+
